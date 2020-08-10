@@ -9,9 +9,9 @@ public class HashMultiMap<K, V> implements MultiMappa<K, V>{
 
 	//tutto ArrayList<k, list<V>> in cui quando inserisco un elemento 
 	//di chiave k nella relativa lista se è gia' presente allora lo sovrascrivo
-	private Type type;
-	private ArrayList<K> multiMappaKeys;
-	private ArrayList<ArrayList<V>> multiMappaValues;
+	protected Type type;
+	protected ArrayList<K> multiMappaKeys;
+	protected ArrayList<ArrayList<V>> multiMappaValues;
 		
 	//MANCA IL COSTRUTTORE!!!!
 	public HashMultiMap() {
